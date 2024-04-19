@@ -3,63 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>practice</title>
+  <title>Your Coffee Shop Name</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Coffee Shop Name</title>
-    <link rel="stylesheet" href="style.css"> </head>
-  <body>
-    <header>
-      <h1>Your Coffee Shop Name</h1>
-      <img src="coffee_shop_logo.png" alt="Coffee Shop Logo">  </header>
-  
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#location">Location & Hours</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  
-    <main>
-      <section id="home">
-        <h2>Welcome to Our Coffee Shop!</h2>
-        <p>We offer a variety of specialty coffees, teas, pastries, and more. Come relax and enjoy our cozy atmosphere.</p>
-        <img src="coffee_shop_image.jpg" alt="Coffee Shop Ambiance Image">  </section>
-  
-      <section id="about">
-        <h2>Our Story</h2>
-        <p>Tell your coffee shop's story, mission, and what makes it special.</p>
-      </section>
-  
-      <section id="menu">
-        <h2>Our Menu</h2>
-        </section>
-  
-      <section id="location">
-        <h2>Location & Hours</h2>
-        <p>Provide your address, operating hours, and a map for easy navigation.</p>
-        </section>
-  
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Offer ways for customers to reach you, like a contact form, phone number, and email address.</p>
-        </section>
-    </main>
-  
-    <footer>
-      <p>&copy; Your Coffee Shop Name. All Rights Reserved.</p>
-    </footer>
-  </body>
-  </html>
-  
+
+  <header>
+    <a href="#">
+      <h1>Sydney Top Coffee Shop</h1>
+    </a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Our Story</h2>
+      <p>Tell the story of your coffee shop, its mission, and what makes it unique. Explain your passion for coffee and the experience you aim to create.</p>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3>Espresso</h3>
+          <p>A strong, concentrated shot of coffee.</p>
+          <span>$3.00</span>
+        </div>
+        <div class="menu-item">
+          <h3>Latte</h3>
+          <p>Espresso with steamed milk and a layer of milk foam.</p>
+          <span>$4.00</span>
+        </div>
+        <div class="menu-item">
+          <h3>Cappuccino</h3>
+          <p>Espresso with equal parts steamed milk and milk foam.</p>
+          <span>$4.50</span>
+        </div>
+        </div>
+    </section>
+
+    <section id="location">
+      <h2>Find Us</h2>
+      <p>Provide your address and operating hours. Consider embedding a Google Maps link for easy navigation.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Offer ways for customers to reach you, like a contact form, phone number, and email address.</p>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="youremail@example.com">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Your Coffee Shop Name. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
